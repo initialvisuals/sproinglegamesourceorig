@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sproingle (source snapshot)
 
-# Run and deploy your AI Studio app
+Earlier / alternate source snapshot of **Sproingle: A Crunchy Rogue-lite** — a turn-based dungeon crawler with a crunchy, sproingly aesthetic.
 
-This contains everything you need to run your app locally.
+Part of the [Initial Visuals](https://github.com/initialvisuals) game experiments line.
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+### Status
 
-## Run Locally
+Archive / origin snapshot. For the cleaner playable tree, start with [`sproingle_game`](https://github.com/initialvisuals/sproingle_game).
 
-**Prerequisites:**  Node.js
+This folder still runs as a local Vite app if you want to poke at the older cut.
 
+### How to run
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Prerequisites:** Node.js
+
+```bash
+npm install
+npm run dev
+```
+
+If the app expects a Gemini key, put it in `.env.local` (never commit secrets):
+
+```bash
+GEMINI_API_KEY=your_key_here
+```
+
+### Related
+
+| Repo | Role |
+|------|------|
+| [`sproingle_game`](https://github.com/initialvisuals/sproingle_game) | Primary playable source |
+| [`sproinglegamesourceorig`](https://github.com/initialvisuals/sproinglegamesourceorig) | This snapshot |
+
+### License
+
+Initial Visuals experiment — see repo files for license details.
