@@ -35,3 +35,7 @@ GEMINI_API_KEY=your_key_here
 ### License
 
 Initial Visuals experiment — see repo files for license details.
+
+---
+
+**Initial Visuals** — tools, sims, games, and experiments.
